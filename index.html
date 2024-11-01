@@ -1,1 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubuntu - Página Oficial</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
 
+    <script type="text/javascript">
+        emailjs.init('Ip-gc1HJKR7v9k3U6')
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="kubuntu-logo.png" alt="Kubuntu" width="50"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#instalacion">Instalación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sitios-interes">Sitios de Interés</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#porque-instalar">¿Por qué Kubuntu?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#comentarios">Comentarios</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero text-white text-center" style="background-image: url('aaa.png'); height: 100vh; background-size: cover;">
+        <div class="container d-flex flex-column justify-content-center align-items-center h-100">
+            <h1 class="display-4">Bienvenido a Kubuntu</h1>
+            <p class="lead">Un sistema operativo de código abierto, sencillo y personalizable.</p>
+            <a href="#instalacion" class="btn btn-primary btn-lg">Instala ahora</a>
+        </div>
+    </section>
+
+    <main class="container mt-5">
+        <!-- Historia del S.O. -->
+        <section id="historia" class="my-5">
+            <h2 class="text-center">Historia del Sistema Operativo</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Kubuntu es una <strong>distribución de Linux</strong> basada en Ubuntu, lanzada por primera vez en 2005. Su objetivo ha sido ofrecer una experiencia de escritorio sólida y personalizable mediante el entorno gráfico <strong>KDE Plasma</strong>, que destaca por su diseño moderno y flexibilidad.</p>
+                    <p>Inicialmente, el proyecto fue patrocinado por <strong>Canonical Ltd.</strong>, la empresa detrás de Ubuntu, hasta el año 2012. A partir de entonces, el desarrollo pasó a ser liderado en gran parte por la comunidad de KDE y colaboradores independientes, aunque Canonical siguió ofreciendo infraestructura de soporte.</p>
+                    <p>A lo largo de los años, Kubuntu se ha posicionado como una de las distribuciones de Linux más populares, especialmente para usuarios que buscan un escritorio completamente adaptable sin perder rendimiento. Cada versión de Kubuntu sigue el ciclo de lanzamientos de Ubuntu, permitiendo que los usuarios disfruten de <strong>actualizaciones constantes y mejoras en seguridad</strong>.</p>
+                    <p>Hoy en día, Kubuntu sigue siendo una elección preferida tanto para usuarios nuevos como experimentados, gracias a su enfoque en la <strong>estabilidad, seguridad y versatilidad</strong>. La comunidad activa y el respaldo de KDE garantizan que Kubuntu continúe evolucionando con nuevas funciones y mejoras de rendimiento.</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="historia.jpg" alt="Historia de Kubuntu" class="img-fluid align-self-center">
+                </div>
+            </div>
+        </section>
+
+        <!-- Instalación y Configuración -->
+        <section id="instalacion" class="my-5 bg-light p-5">
+            <h2 class="text-center">Instalación y Configuración</h2>
+            <p class="text-center">Mira nuestro video tutorial de instalación y optimización de Kubuntu</p>
+            <div class="text-center">
+                <a href="https://www.youtube.com/watch?v=1neaTgGAl0Q" target="_blank" class="btn btn-secondary mb-4">Ver Video</a>
+            </div>
+            <div class="text-center">
+                <img src="instalar.jpg" alt="Instalación de Kubuntu" class="img-fluid rounded" style="max-width: 80%;">
+            </div>
+        </section>
+
+        <!-- Sitios de Interés -->
+        <section id="sitios-interes" class="my-5">
+            <h2 class="text-center">Sitios de Interés</h2>
+            <ul class="list-unstyled text-center">
+                <li><a href="https://kubuntu.org" target="_blank">Página oficial de Kubuntu</a></li>
+                <li><a href="https://www.kubuntuforums.net/" target="_blank">Foro oficial</a></li>
+                <li><a href="https://www.kdeblog.com/" target="_blank">Blog de Kubuntu</a></li>
+            </ul>
+            <div class="text-center mt-4">
+                <img src="sitios_interes.JPG" alt="Sitios de interés de Kubuntu" class="img-fluid rounded" style="max-width: 80%;">
+            </div>
+        </section>
+
+        <!-- ¿Por qué instalar Kubuntu? -->
+        <section id="porque-instalar" class="my-5">
+            <h2 class="text-center">¿Por qué instalar Kubuntu?</h2>
+            <p>Kubuntu es una excelente opción para quienes buscan un sistema operativo que combine "modernidad, ligereza y flexibilidad". Aquí tienes algunas razones para instalarlo:</p>
+            <ul class="list-unstyled">
+                <li><strong>Interfaz amigable y personalizable:</strong> Disfruta del entorno KDE Plasma, que te permite personalizar la apariencia y estructura del sistema para ajustarlo a tus preferencias.</li>
+                <li><strong>Optimización de rendimiento:</strong> Ideal tanto para equipos modernos como para aquellos con recursos limitados, ya que KDE Plasma es ligero y rápido.</li>
+                <li><strong>Seguridad y estabilidad:</strong> Basado en Ubuntu, Kubuntu ofrece actualizaciones regulares de seguridad y es altamente confiable para tareas diarias.</li>
+                <li><strong>Amplio acceso a software libre:</strong> Accede a miles de aplicaciones a través del centro de software de Ubuntu y de paquetes compatibles, con un fuerte respaldo de la comunidad.</li>
+                <li><strong>Privacidad y control:</strong> Kubuntu respeta tu privacidad y evita la recolección de datos sin tu permiso.</li>
+            </ul>
+            <p class="mt-4">Kubuntu es una opción moderna y eficiente, respaldada por una comunidad activa de desarrolladores y entusiastas. Con su rendimiento optimizado y soporte multimedia, es ideal tanto para trabajo como para entretenimiento.</p>
+        </section>
+
+        <!-- Comentarios y Autores -->
+        <section id="comentarios" class="my-5 bg-light p-5">
+            <h2 class="text-center">Envíanos Tu Comentario !</h2>
+
+            <!-- Formulario de comentarios -->
+            <form id="form">
+                <div class="field">
+                  <label for="from_name">Tu nombre</label>
+                  <input type="text" name="from_name" id="from_name">
+                </div>
+
+                <div class="field">
+                    <label for="email_id">Tu email</label>
+                    <input type="text" name="email_id" id="email_id">
+                </div> 
+
+                <div class="field">
+                  <label for="message">Comentario</label>
+                  <input type="text" name="message" id="message">
+                </div>
+                 
+              
+                <input type="submit" id="button" value="Enviar Comentario" >
+            </form>
+
+            <!-- Información de los autores en tarjetas 
+            <div class="mt-5">
+                <h4>Autores:</h4>
+                <div class="authors">
+                    <div class="author-card">
+                        <img src="1.jpg" alt="Foto de Adrian Guzman">
+                        <p><strong>Adrian Guzman</strong></p>
+                        <p><a href="mailto:adrianguzmanch123@gmail.com">adrianguzmanch123@gmail.com</a></p>
+                    </div>
+                    <div class="author-card">
+                        <img src="perfil_sebastian.jpg" alt="Foto de Sebastian Burbano">
+                        <p><strong>Sebastian Burbano</strong></p>
+                        <p><a href="mailto:Jsebastib@gmail.com">Jsebastib@gmail.com</a></p>
+                    </div>
+                    <div class="author-card">
+                        <img src="perfil_jaider.jpg" alt="Foto de Jaider Paredes">
+                        <p><strong>Jaider Paredes</strong></p>
+                        <p><a href="mailto:jaiderparedes3@gmail.com">jaiderparedes3@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>-->
+
+            <!-- Información de los autores en una tabla -->
+            <div class="mt-5">
+                <h4>Autores:</h4>
+                <table class="author-table">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Correo Electrónico</th>
+                    </tr>
+                    <tr>
+                        <td>Mateo Leiton</td>
+                        <td><a href="mateoleytoncal@gmail.com">mateoleytoncal@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Adrian Guzman</td>
+                        <td><a href="mailto:adrianguzmanch123@gmail.com">adrianguzmanch123@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Sebastian Burbano</td>
+                        <td><a href="mailto:Jsebastib@gmail.com">Jsebastib@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>Jaider Paredes</td>
+                        <td><a href="mailto:jaiderparedes3@gmail.com">jaiderparedes3@gmail.com</a></td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- Información de los autores en una lista con iconos 
+            <div class="mt-5">
+                <h4>Autores:</h4>
+                <ul class="author-list">
+                    <li>
+                        <strong>Adrian Guzman</strong> - 
+                        <a href="mailto:adrianguzmanch123@gmail.com">adrianguzmanch123@gmail.com</a>
+                        <a href="https://github.com/adrianguzman" target="_blank">
+                            <img src="github-icon.png" alt="GitHub" class="icon">
+                        </a>
+                    </li>
+                    <li>
+                        <strong>Sebastian Burbano</strong> - 
+                        <a href="mailto:Jsebastib@gmail.com">Jsebastib@gmail.com</a>
+                        <a href="https://linkedin.com/in/sebastianburbano" target="_blank">
+                            <img src="linkedin-icon.png" alt="LinkedIn" class="icon">
+                        </a>
+                    </li>
+                    <li>
+                        <strong>Jaider Paredes</strong> - 
+                        <a href="mailto:jaiderparedes3@gmail.com">jaiderparedes3@gmail.com</a>
+                        <a href="https://github.com/jaiderparedes" target="_blank">
+                            <img src="github-icon.png" alt="GitHub" class="icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>-->
+
+
+
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2024 Kubuntu. Universidad de nariño.</p>
+    </footer>
+
+     <!-- Scripts -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <script>
+         document.getElementById('comentariosForm').addEventListener('submit', function(e) {
+             e.preventDefault(); // Prevenir el envío del formulario
+ 
+             const nombre = document.getElementById('nombre').value;
+             const comentario = document.getElementById('comentario').value;
+ 
+             // Agregar el comentario a la lista
+             const li = document.createElement('li');
+             li.className = 'list-group-item';
+             li.textContent = `${nombre}: ${comentario}`;
+             document.getElementById('comentariosList').appendChild(li);
+ 
+             // Limpiar el formulario
+             document.getElementById('comentariosForm').reset();
+         });
+     </script>
+
+     <script src="app.js"></script>
+ </body>
+ </html>
